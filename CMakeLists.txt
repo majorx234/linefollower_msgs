@@ -12,6 +12,7 @@ add_message_files(
   DIRECTORY msg
   FILES
   linefollower.msg
+  linefollower_array.msg
 )
 
 generate_messages(DEPENDENCIES std_msgs geometry_msgs)
